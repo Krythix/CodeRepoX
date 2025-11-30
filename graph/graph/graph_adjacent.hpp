@@ -1,6 +1,8 @@
 #pragma once
 
 #include <vector>
+#include <cstdio>
+#include <climits>
 
 namespace MyGraph {
 

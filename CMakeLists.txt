@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
+set(CMAKE_C_COMPILER "/usr/bin/gcc")
+set(CMAKE_CXX_COMPILER "/usr/bin/g++")
 project(CodeRepoX)
 
 add_subdirectory(graph)
 #add_subdirectory(queue)
 #add_subdirectory(stack)
-#add_subdirectory(tree)
+add_subdirectory(tree)
+add_subdirectory(algorithm)

@@ -38,6 +38,7 @@ void Prim::init() {
 }
 
 void Prim::operator()() {
+    // add n-1 edges
     for(int j=1; j<n; j++) {
         int minEW = INT_MAX;
         int u;

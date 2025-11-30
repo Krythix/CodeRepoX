@@ -14,7 +14,10 @@ public:
 private:
     MyGraph::Graph<int> graph;
     int n, m;
+    // if a vertex is contained in current mst
     int * mark;
+    // lowest length to each vertex
     int * lowcost;
+    // record path
     int * vex;
 };
